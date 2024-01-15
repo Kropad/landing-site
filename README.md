@@ -1,28 +1,33 @@
-# create-svelte
+# landing-site
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+This repo contains the source code of [**Kropad**](https://kropad.com)'s landing site, powered by [**SvelteKit**](https://kit.svelte.dev).
 
-## Creating a project
+## Cloning the repo
 
-If you're seeing this, you've probably already done this step. Congrats!
+First you have to clone the repo:
 
 ```bash
-# create a new project in the current directory
-npm create svelte@latest
+# clone the repo
+git clone https://github.com/Kropad/landing-site.git
 
-# create a new project in my-app
-npm create svelte@latest my-app
+# set the current working directory
+cd landing-site
+```
+
+## Installing dependencies
+
+Before starting to develop, you have to install dependencies:
+
+```bash
+npm install
 ```
 
 ## Developing
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+Once you've installed dependencies, start a development server:
 
 ```bash
 npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
 ```
 
 ## Building
@@ -33,6 +38,10 @@ To create a production version of your app:
 npm run build
 ```
 
-You can preview the production build with `npm run preview`.
+## Previewing
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+You can preview the production build with:
+
+```bash
+npm run preview
+```
