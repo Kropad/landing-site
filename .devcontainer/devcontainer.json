@@ -1,5 +1,18 @@
 {
-    "build": {
-        "dockerfile": "Dockerfile"
-    }
+	"build": {
+		"dockerfile": "Dockerfile"
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": ["dbaeumer.vscode-eslint", "esbenp.prettier-vscode", "svelte.svelte-vscode"],
+			"settings": {
+				"editor.formatOnSave": true,
+				"editor.formatOnPaste": true,
+				"editor.defaultFormatter": "esbenp.prettier-vscode",
+				"[svelte]": {
+					"editor.defaultFormatter": "svelte.svelte-vscode"
+				}
+			}
+		}
+	}
 }
