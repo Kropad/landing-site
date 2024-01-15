@@ -4,7 +4,12 @@
 	},
 	"customizations": {
 		"vscode": {
-			"extensions": ["dbaeumer.vscode-eslint", "esbenp.prettier-vscode", "svelte.svelte-vscode"],
+			"extensions": [
+				"dbaeumer.vscode-eslint",
+				"esbenp.prettier-vscode",
+				"svelte.svelte-vscode",
+				"bradlc.vscode-tailwindcss"
+			],
 			"settings": {
 				"editor.formatOnSave": true,
 				"editor.formatOnPaste": true,
