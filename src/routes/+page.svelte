@@ -10,7 +10,7 @@
 	<section class="flex flex-col items-center gap-8 px-4 py-12 text-center">
 		<div class="w-96 px-12">
 			<div
-				class="flex aspect-square w-full items-center justify-center rounded-full bg-green-500 p-[23%]"
+				class="bg-malachite-400 flex aspect-square w-full items-center justify-center rounded-full p-[23%]"
 			>
 				<div class="aspect-square w-full rounded-[10%] bg-white" />
 			</div>
@@ -26,35 +26,35 @@
 			</div>
 			<div class="flex justify-center gap-5">
 				<a
-					class="h-13 w-13 flex items-center justify-center rounded-full bg-[#6264ef] fill-white duration-150 hover:opacity-70"
+					class="flex h-13 w-13 items-center justify-center rounded-full bg-[#6264ef] fill-white duration-150 hover:opacity-70"
 					href="https://discord.com/"
 					target="_blank"
 				>
 					{@html IconDiscord()}
 				</a>
 				<a
-					class="h-13 w-13 flex items-center justify-center rounded-full bg-[#000000] fill-white duration-150 hover:opacity-70"
+					class="flex h-13 w-13 items-center justify-center rounded-full bg-[#000000] fill-white duration-150 hover:opacity-70"
 					href="https://twitter.com/kropadcom"
 					target="_blank"
 				>
 					{@html IconX()}
 				</a>
 				<a
-					class="h-13 w-13 flex items-center justify-center rounded-full bg-[#229ED9] fill-white duration-150 hover:opacity-70"
+					class="flex h-13 w-13 items-center justify-center rounded-full bg-[#229ED9] fill-white duration-150 hover:opacity-70"
 					href="https://t.me/kropad"
 					target="_blank"
 				>
 					{@html IconTelegram()}
 				</a>
 				<a
-					class="h-13 w-13 flex items-center justify-center rounded-full bg-[#1d2128] fill-white duration-150 hover:opacity-70"
+					class="flex h-13 w-13 items-center justify-center rounded-full bg-[#1d2128] fill-white duration-150 hover:opacity-70"
 					href="https://github.com/Kropad"
 					target="_blank"
 				>
 					{@html IconGithub()}
 				</a>
 				<a
-					class="h-13 w-13 flex items-center justify-center rounded-full bg-[#da453c] fill-white duration-150 hover:opacity-70"
+					class="flex h-13 w-13 items-center justify-center rounded-full bg-[#da453c] fill-white duration-150 hover:opacity-70"
 					href="mailto:contact@kropad.com"
 					target="_blank"
 				>
@@ -68,12 +68,12 @@
 			<h2 class="text-4xl font-extrabold sm:text-5xl md:text-6xl lg:text-7xl">What is Kropad?</h2>
 			<div class="grid w-full grid-cols-1 gap-x-5 gap-y-4">
 				<div
-					class="flex h-96 flex-col items-center justify-center rounded-xl bg-green-500 px-4 text-center text-3xl font-extrabold text-white"
+					class="bg-malachite-400 flex h-96 flex-col items-center justify-center rounded-xl px-4 text-center text-3xl font-extrabold text-white"
 				>
 					A decentralized launchpad where users are in control.
 				</div>
 				<div
-					class="flex h-96 flex-col items-center justify-center rounded-xl bg-green-500 px-4 text-center text-3xl font-extrabold text-white"
+					class="bg-malachite-400 flex h-96 flex-col items-center justify-center rounded-xl px-4 text-center text-3xl font-extrabold text-white"
 				>
 					A decentralized launchpad where users are in control.
 				</div>
