@@ -13,7 +13,7 @@
 			class="flex items-center gap-1.5 text-xl font-extrabold"
 			on:click={isMenuOpen.close}
 		>
-			<div class="bg-malachite-400 flex h-7 w-7 items-center justify-center rounded-full">
+			<div class="flex h-7 w-7 items-center justify-center rounded-full bg-green-400">
 				<div class="h-3.5 w-3.5 rounded-sm bg-white" />
 			</div>
 			Kropad
@@ -23,7 +23,7 @@
 			<a
 				href="https://discord.com"
 				target="_blank"
-				class="hover:text-malachite-600 duration-150 hover:underline"
+				class="duration-150 hover:text-green-600 hover:underline"
 				on:click={isMenuOpen.toggle}
 			>
 				Discord
@@ -31,7 +31,7 @@
 			<a
 				href="https://twitter.com/kropadcom"
 				target="_blank"
-				class="hover:text-malachite-600 duration-150 hover:underline"
+				class="duration-150 hover:text-green-600 hover:underline"
 				on:click={isMenuOpen.toggle}
 			>
 				X / Twitter
@@ -39,7 +39,7 @@
 			<a
 				href="https://t.me/kropad"
 				target="_blank"
-				class="hover:text-malachite-600 duration-150 hover:underline"
+				class="duration-150 hover:text-green-600 hover:underline"
 				on:click={isMenuOpen.toggle}
 			>
 				Telegram
@@ -47,7 +47,7 @@
 			<a
 				href="https://github.com/Kropad"
 				target="_blank"
-				class="hover:text-malachite-600 duration-150 hover:underline"
+				class="duration-150 hover:text-green-600 hover:underline"
 				on:click={isMenuOpen.toggle}
 			>
 				GitHub
@@ -55,7 +55,7 @@
 			<a
 				href="mailto:contact@kropad.com"
 				target="_blank"
-				class="hover:text-malachite-600 duration-150 hover:underline"
+				class="duration-150 hover:text-green-600 hover:underline"
 				on:click={isMenuOpen.toggle}
 			>
 				Mail
