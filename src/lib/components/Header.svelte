@@ -10,6 +10,7 @@
 	<div class="flex w-full max-w-7xl items-center justify-between px-4">
 		<a
 			href="/"
+			aria-label="Kropad's homepage"
 			class="flex items-center gap-1.5 text-xl font-extrabold"
 			on:click={isMenuOpen.close}
 		>
@@ -19,7 +20,13 @@
 			Kropad
 		</a>
 		<nav class="hidden gap-8 text-sm text-neutral-900/60 md:flex">
-			<a href="/" class={$page.url.pathname === "/" ? "text-neutral-900" : ""}> Homepage </a>
+			<a
+				href="/"
+				aria-label="Kropad's homepage"
+				class={$page.url.pathname === "/" ? "text-neutral-900" : ""}
+			>
+				Homepage
+			</a>
 			<a
 				href="https://discord.com"
 				target="_blank"
@@ -58,8 +65,8 @@
 			</a>
 			<a
 				href="mailto:contact@kropad.com"
-				aria-label="Kropad's Mail"
 				class="duration-150 hover:text-green-600 hover:underline"
+				aria-label="Kropad's mail address"
 				on:click={isMenuOpen.toggle}
 			>
 				Mail

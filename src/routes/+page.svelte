@@ -27,6 +27,7 @@
 			<div class="flex justify-center gap-5">
 				<a
 					class="flex h-13 w-13 items-center justify-center rounded-full bg-[#6264ef] fill-white duration-150 hover:opacity-70"
+					aria-label="Kropad's Discord server"
 					href="https://discord.com/"
 					target="_blank"
 				>
@@ -34,6 +35,7 @@
 				</a>
 				<a
 					class="flex h-13 w-13 items-center justify-center rounded-full bg-[#000000] fill-white duration-150 hover:opacity-70"
+					aria-label="Kropad's Twitter profile"
 					href="https://twitter.com/kropadcom"
 					target="_blank"
 				>
@@ -41,6 +43,7 @@
 				</a>
 				<a
 					class="flex h-13 w-13 items-center justify-center rounded-full bg-[#229ED9] fill-white duration-150 hover:opacity-70"
+					aria-label="Kropad's Telegram channel"
 					href="https://t.me/kropad"
 					target="_blank"
 				>
@@ -48,6 +51,7 @@
 				</a>
 				<a
 					class="flex h-13 w-13 items-center justify-center rounded-full bg-[#1d2128] fill-white duration-150 hover:opacity-70"
+					aria-label="Kropad's GitHub profile"
 					href="https://github.com/Kropad"
 					target="_blank"
 				>
@@ -55,6 +59,7 @@
 				</a>
 				<a
 					class="flex h-13 w-13 items-center justify-center rounded-full bg-[#da453c] fill-white duration-150 hover:opacity-70"
+					aria-label="Kropad's mail address"
 					href="mailto:contact@kropad.com"
 					target="_blank"
 				>
