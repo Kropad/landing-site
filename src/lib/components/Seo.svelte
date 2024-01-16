@@ -1,3 +1,16 @@
+<script lang="ts">
+	import { page } from "$app/stores"
+	import type { Seo } from "$lib/types/Seo"
+
+	export let data: Seo
+
+	const title = data.title
+	const description = data.description
+	const url = `https://kropad.com${$page.url.pathname}`
+	const keywords = "kropad, launchpad, kromapad, kroma, kroma network"
+	const twitter = "@kropadcom"
+</script>
+
 <svelte:head>
 	<title>{$page.url.pathname !== "/" ? `${title} | Kropad` : title}</title>
 	<meta name="description" content={description} />
@@ -20,16 +33,3 @@
 	<meta name="twitter:description" content={description} />
 	<!-- <meta name="twitter:image:src" content={image} /> -->
 </svelte:head>
-
-<script lang="ts">
-	import { page } from "$app/stores"
-	import type { Seo } from "$lib/types/Seo"
-
-	export let data: Seo
-
-	const title = data.title
-	const description = data.description
-	const url = `https://kropad.com${$page.url.pathname}`
-	const keywords = "kropad, launchpad, kromapad, kroma, kroma network"
-	const twitter = "@kropadcom"
-</script>
