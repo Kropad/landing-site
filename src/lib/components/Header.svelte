@@ -1,22 +1,21 @@
 <script>
 	import { page } from "$app/stores"
 	import { IconBars } from "$lib/icons/IconBars"
+	import { IconKropad } from "$lib/icons/Kropad"
 	import { isMenuOpen } from "$lib/stores/isMenuOpen"
 </script>
 
 <header
-	class="sticky top-0 z-40 flex h-13 justify-center border-b border-neutral-200 bg-white/70 backdrop-blur-xl"
+	class="sticky top-0 z-40 flex h-14 justify-center border-b border-neutral-200 bg-white/70 backdrop-blur-xl"
 >
 	<div class="flex w-full max-w-7xl items-center justify-between px-4">
 		<a
 			href="/"
 			aria-label="Kropad's homepage"
-			class="flex items-center gap-1.5 text-xl font-extrabold"
+			class="flex items-center gap-2 text-xl font-extrabold"
 			on:click={isMenuOpen.close}
 		>
-			<div class="flex h-7 w-7 items-center justify-center rounded-full bg-green-400">
-				<div class="h-3.5 w-3.5 rounded-sm bg-white" />
-			</div>
+			{@html IconKropad("30")}
 			Kropad
 		</a>
 		<nav class="hidden gap-8 text-sm text-neutral-900/60 md:flex">
