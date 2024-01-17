@@ -30,7 +30,7 @@
 				href="https://discord.com"
 				target="_blank"
 				aria-label="Kropad's Discord server"
-				class="duration-150 hover:text-green-600 hover:underline"
+				class="hover:text-green-600 hover:underline"
 				on:click={isMenuOpen.toggle}
 			>
 				Discord
@@ -39,7 +39,7 @@
 				href="https://twitter.com/kropadcom"
 				target="_blank"
 				aria-label="Kropad's Twitter profile"
-				class="duration-150 hover:text-green-600 hover:underline"
+				class="hover:text-green-600 hover:underline"
 				on:click={isMenuOpen.toggle}
 			>
 				X / Twitter
@@ -48,7 +48,7 @@
 				href="https://t.me/kropad"
 				target="_blank"
 				aria-label="Kropad's Telegram channel"
-				class="duration-150 hover:text-green-600 hover:underline"
+				class="hover:text-green-600 hover:underline"
 				on:click={isMenuOpen.toggle}
 			>
 				Telegram
@@ -57,14 +57,14 @@
 				href="https://github.com/Kropad"
 				target="_blank"
 				aria-label="Kropad's GitHub profile"
-				class="duration-150 hover:text-green-600 hover:underline"
+				class="hover:text-green-600 hover:underline"
 				on:click={isMenuOpen.toggle}
 			>
 				GitHub
 			</a>
 			<a
 				href="mailto:contact@kropad.com"
-				class="duration-150 hover:text-green-600 hover:underline"
+				class="hover:text-green-600 hover:underline"
 				aria-label="Kropad's mail address"
 				on:click={isMenuOpen.toggle}
 			>
