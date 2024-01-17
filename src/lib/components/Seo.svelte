@@ -9,6 +9,9 @@
 	const url = `https://kropad.com${$page.url.pathname}`
 	const keywords = "kropad, launchpad, kromapad, kroma, kroma network"
 	const twitter = "@kropadcom"
+	const image = "https://kropad.com/kropad-og.png"
+	const imageWidth = "1200"
+	const imageHeight = "630"
 </script>
 
 <svelte:head>
@@ -22,14 +25,14 @@
 	<meta property="og:site_name" content="Kropad" />
 	<meta property="og:title" content={title} />
 	<meta property="og:description" content={description} />
-	<!-- <meta property="og:image" content={image} />
+	<meta property="og:image" content={image} />
 	<meta property="og:image:width" content={imageWidth} />
-	<meta property="og:image:height" content={imageHeight} /> -->
+	<meta property="og:image:height" content={imageHeight} />
 	<meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:site" content={twitter} />
 	<meta name="twitter:creator" content={twitter} />
 	<meta name="twitter:title" content={title} />
 	<meta name="twitter:url" content={url} />
 	<meta name="twitter:description" content={description} />
-	<!-- <meta name="twitter:image:src" content={image} /> -->
+	<meta name="twitter:image:src" content={image} />
 </svelte:head>
