@@ -72,18 +72,22 @@
 	<section class="flex flex-col items-center py-12 text-center">
 		<div class="flex w-full max-w-7xl flex-col px-4">
 			<div
-				class="grid w-full grid-cols-1 gap-x-5 gap-y-4 text-3xl font-extrabold text-white sm:text-3xl md:grid-cols-2"
+				class="grid w-full grid-cols-1 gap-x-5 gap-y-4 text-3xl font-extrabold text-white sm:text-4xl md:grid-cols-2 md:text-3xl lg:text-4xl"
 			>
 				<div
-					class="flex h-96 flex-col items-center justify-center rounded-2xl bg-green-400 px-6 md:col-span-2"
+					class="flex h-96 flex-col items-center justify-center rounded-2xl bg-green-400 px-6 leading-tight md:col-span-2"
 				>
-					You are the owner of the platform
+					The first launchpad on Kroma, for you
 				</div>
-				<div class="flex h-96 flex-col items-center justify-center rounded-2xl bg-green-400 px-6">
-					Vote projects and choose their fate
+				<div
+					class="flex h-96 flex-col items-center justify-center rounded-2xl bg-green-400 px-6 leading-tight"
+				>
+					Let projects you like launch
 				</div>
-				<div class="flex h-96 flex-col items-center justify-center rounded-2xl bg-green-400 px-6">
-					Join and launch your project
+				<div
+					class="flex h-96 flex-col items-center justify-center rounded-2xl bg-green-400 px-6 leading-tight"
+				>
+					All in a decentralized way
 				</div>
 			</div>
 		</div>
