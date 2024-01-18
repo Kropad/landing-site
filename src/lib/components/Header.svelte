@@ -27,7 +27,7 @@
 				Homepage
 			</a>
 			<a
-				href="https://discord.com"
+				href="https://discord.gg/m3GDZWsFmF"
 				target="_blank"
 				aria-label="Kropad's Discord server"
 				class="hover:text-green-600 hover:underline"

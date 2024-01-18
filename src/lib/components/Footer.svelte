@@ -8,7 +8,7 @@
 				<p class="text-lg font-extrabold">Social Links</p>
 				<div class="flex flex-col gap-0.5 text-sm text-neutral-900/60">
 					<a
-						href="https://discord.com"
+						href="https://discord.gg/m3GDZWsFmF"
 						class="hover:text-green-600 hover:underline"
 						aria-label="Kropad's Discord server"
 						target="_blank"

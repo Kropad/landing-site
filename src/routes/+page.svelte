@@ -29,7 +29,7 @@
 				<a
 					class="flex h-13 w-13 items-center justify-center rounded-full bg-[#6264ef] fill-white duration-150 hover:scale-110 hover:opacity-70"
 					aria-label="Kropad's Discord server"
-					href="https://discord.com/"
+					href="https://discord.gg/m3GDZWsFmF"
 					target="_blank"
 				>
 					{@html IconDiscord()}

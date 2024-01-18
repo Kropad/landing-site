@@ -17,7 +17,7 @@
 		<nav class="flex flex-col gap-10 px-10 py-1 text-4xl font-bold">
 			<a href="/" aria-label="Kropad's homepage" on:click={isMenuOpen.toggle}> Homepage </a>
 			<a
-				href="https://discord.com"
+				href="https://discord.gg/m3GDZWsFmF"
 				aria-label="Kropad's Discord server"
 				target="_blank"
 				on:click={isMenuOpen.toggle}
