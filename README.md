@@ -1,47 +1,69 @@
-# landing-site
+# Kropad's Landing Site
 
-This repo contains the source code of [**Kropad**](https://kropad.com)'s landing site, powered by [**SvelteKit**](https://kit.svelte.dev).
+This repository contains the source code of the landing site of [Kropad](https://kropad.com).
 
-## Cloning the repo
+This project is licensed under [AGPL](https://www.gnu.org/licenses/agpl-3.0.en.html).
 
-First you have to clone the repo:
+We use [Svelte](https://svelte.dev) and [SvelteKit](https://kit.svelte.dev) for developing the website.
 
-```bash
-# clone the repo
-git clone https://github.com/Kropad/landing-site.git
+You can find detailed information about [Svelte](https://svelte.dev) and [SvelteKit](https://kit.svelte.dev) below.
 
-# set the current working directory
-cd landing-site
+## Svelte
+
+Svelte is a new way to build web applications.
+
+It's a compiler that takes your declarative components and converts them into efficient JavaScript that surgically updates the DOM.
+
+## SvelteKit
+
+SvelteKit is a framework for rapidly developing robust, performant web applications using Svelte
+
+If you're coming from React, SvelteKit is similar to Next. If you're coming from Vue, SvelteKit is similar to Nuxt.
+
+## Documentation
+
+https://svelte.dev/docs/introduction
+
+https://kit.svelte.dev/docs/introduction
+
+## Usage
+
+### Develop
+
+```shell
+$ npm run dev
 ```
 
-## Installing dependencies
+### Build
 
-Before starting to develop, you have to install dependencies:
-
-```bash
-npm install
+```shell
+$ npm run build
 ```
 
-## Developing
+### Preview
 
-Once you've installed dependencies, start a development server:
-
-```bash
-npm run dev
+```shell
+$ npm run build
 ```
 
-## Building
+### Format
 
-To create a production version of your app:
-
-```bash
-npm run build
+```shell
+$ npm run format
 ```
 
-## Previewing
+### Lint
 
-You can preview the production build with:
-
-```bash
-npm run preview
+```shell
+$ npm run lint
 ```
+
+### Check
+
+```shell
+$ npm run check
+```
+
+## Note
+
+Built with love, sweat and tears by [Berzan](https://berzan.org).
